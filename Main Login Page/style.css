@@ -1,0 +1,132 @@
+body{
+    background-color: #1F0231;
+    background-image: url(../Images/sixTireBg.png);
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-repeat: no-repeat;
+    }
+    main{
+        width: 547px;
+        height: 664px;
+        margin: 80px auto 106px;
+        padding: 10px 50px;
+        background: #FFFFFF;
+        border-radius: 4px;
+        justify-content: center;
+    }
+    main h2{
+        text-align: center;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center;
+        letter-spacing: -0.04em;
+        
+        color: #0C0114;    
+    }
+    #create{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        letter-spacing: -0.04em;
+        color: #0C0114;
+        margin: 30px 0;
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    #open{
+        width: 464px;
+        margin: auto;
+    }
+    #orr{
+        text-align: center;
+    }
+    #had{
+        font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    margin-top: -10px;
+    color: #0C0114;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    }
+    #had a{
+        color: rgb(252, 207, 7);
+    }
+    form{
+        width: 464px;
+        height: 478px;
+        margin-top: 20px;
+    }
+    
+    main button{
+        box-sizing: border-box;
+        width: 464px;
+        height: 56px;
+        background: rgba(216, 205, 224, 0.1);
+        border: 1px solid #D8CDE0;
+        border-radius: 4px;
+        margin: 14px 0 24px;
+    }
+    label{
+        font-style: normal;
+        height: 14px;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 14px;
+        color: #0C0114;
+        margin-bottom: 20px;
+        /* Inside auto layout */
+        
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .others input{
+        width: 464px;
+        height: 52px;
+        border: 1px solid #DCDCDC;
+        border-radius: 4px;
+        /* Inside auto layout */
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin-top: -7px !important;
+    }
+    .others:nth-child(2){
+        margin-top: 26px;
+    }
+    form div button{
+        width: 464px;
+        height: 56px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        color: #FFFFFF;
+        background: #3E0563;
+        border-radius: 4px;
+        margin-top: 29px;
+    }
+    a{
+        text-decoration: none;
+    }
+
+    #forgot{
+        height: 14px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        text-align: center;
+        color: #3E0563;
+    }

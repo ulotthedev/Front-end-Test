@@ -1,0 +1,178 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+body{
+    width: 1440px;
+    height: 1239px;
+    background: #FFFFFF;
+}
+header{
+    margin: 0;
+    box-sizing: border-box;
+    padding-bottom: 20px;
+    width: 968px;
+    height: 72px;
+    left: 0px;
+    top: 0px;
+    border-bottom: 1px solid rgba(219, 219, 219, 0.5);
+    background: #FFFFFF;
+}
+header img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 4px;
+    position: absolute;
+    width: 96px;
+    height: 59.52px;
+    left: 80px;
+    top: 16px;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 64px;
+    list-style: none;
+    position: absolute;
+    width: 721px;
+    height: 19px;
+    left: 256px;
+    top: 36px;
+}
+
+#login{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 4px;
+
+    position: absolute;
+    width: 50px;
+    height: 24px;
+    left: 1067px;
+    top: 34px;
+}
+#login img{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 23.75%;
+    right: 23.75%;
+    top: 0%;
+    bottom: 0%;
+}
+#login span{
+    width: 22px;
+    height: 22px;
+    margin-left: 60px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    text-align: center;
+    color: #000000;
+}
+#create{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    margin-left: 20px;
+    position: absolute;
+    width: 194px;
+    height: 22px;
+    left: 1166px;
+    top: 35px;
+}
+#create img{
+    width: 18px;
+    height: 18px;
+    top: 0px;
+    left: 0px;
+}
+#create span{
+    width: 144px;
+    height: 22px;
+    font-family: 'Pulp Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    text-align: center;
+    color: #0C0114;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.banner h2{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    letter-spacing: -0.04em;
+    margin-top: 47px;
+    color: #0C0114;
+}
+.banner p{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    text-align: center;
+    color: #808080;
+    margin-top: 8px;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 48px;
+    margin-left: 60px;
+}
+a{
+    text-decoration: none;
+}
+main div{
+    width: 290px;
+    height: 382px;
+    justify-content: center;
+    margin: 20px;
+    text-align: center;
+}
+main div h3{
+    margin-top: 23px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #0C0114;
+}
+main div p{
+    font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+color: #3E0563;
+margin-top: 4px;
+}
